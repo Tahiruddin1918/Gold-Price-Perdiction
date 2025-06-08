@@ -18,7 +18,7 @@ Gold-Price-Prediction/
 │
 ├── gld_price_data.csv                  # Original dataset
 ├── gold_data_processed.csv             # Cleaned and preprocessed dataset
-├── Gold_Price_Prediction.ipynb         # Separate Jupyter Notebook allows you to predict the gold price 
+├── Gold Price Prediction.ipynb         # Separate Jupyter Notebook allows you to predict the gold price 
 ├── gold_price_app.py                   # Streamlit app for interactive predictions
 ├── gold price prediction model.ipynb   # Model development and EDA notebook
 ├── gold_price_model.pkl                # Pickled model file
