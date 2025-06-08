@@ -16,10 +16,10 @@ This project aims to predict gold prices using a machine learning model based on
 ```
 gold-price-prediction/
 │
-├── gold_data.csv                # Original dataset
+├── gold_price_data.csv                # Original dataset
 ├── gold_data_processed.csv      # Cleaned and preprocessed dataset
 ├── gold_price_prediction.ipynb  # Jupyter Notebook with data analysis and modeling
-├── app.py                       # Streamlit app for interactive predictions
+├── gold_price_app.py                       # Streamlit app for interactive predictions
 ├── requirements.txt             # List of required Python packages
 └── README.md                    # Project documentation
 ```
@@ -42,7 +42,7 @@ gold-price-prediction/
 3. **Run the Streamlit app:**
 
    ```bash
-   streamlit run app.py
+   streamlit run gold_price_app.py
    ```
 
 ## 🛠️ Features
