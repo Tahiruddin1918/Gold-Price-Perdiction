@@ -14,14 +14,16 @@ This project aims to predict gold prices using a machine learning model based on
 ## 🗂️ Project Structure
 
 ```
-gold-price-prediction/
+Gold-Price-Prediction/
 │
-├── gold_price_data.csv                # Original dataset
-├── gold_data_processed.csv      # Cleaned and preprocessed dataset
-├── gold_price_prediction.ipynb  # Jupyter Notebook with data analysis and modeling
-├── gold_price_app.py                       # Streamlit app for interactive predictions
-├── requirements.txt             # List of required Python packages
-└── README.md                    # Project documentation
+├── gld_price_data.csv                  # Original dataset
+├── gold_data_processed.csv             # Cleaned and preprocessed dataset
+├── Gold_Price_Prediction.ipynb         # Separate Jupyter Notebook allows you to predict the gold price 
+├── gold_price_app.py                   # Streamlit app for interactive predictions
+├── gold price prediction model.ipynb   # Model development and EDA notebook
+├── gold_price_model.pkl                # Pickled model file
+├── requirements.txt                    # List of required Python packages
+└── README.md                           # Project documentation
 ```
 
 ## 🚀 How to Run
