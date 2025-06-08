@@ -1,0 +1,21 @@
+# requirements.txt
+
+This file contains the list of libraries and their versions required to run the Gold Price Prediction project. Each library is briefly explained below:
+
+```
+numpy           # Numerical computing, arrays, and math operations
+pandas          # Data manipulation and analysis (reading/writing CSVs, data cleaning)
+matplotlib      # Plotting graphs and visualizations
+seaborn         # Statistical data visualization (histograms, boxplots, heatmaps)
+sklearn         # Machine learning algorithms and model evaluation
+joblib          # Model serialization (saving/loading models)
+warnings        # Suppress warnings during execution
+```
+
+This file ensures that everyone working on the project uses the same library versions, ensuring reproducibility and consistency.
+
+You can install all dependencies at once using:
+
+```
+pip install -r requirements.txt
+```
